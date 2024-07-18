@@ -2,7 +2,7 @@ import React from 'react';
 import code from '../assets/code2.png';
 import covidImg from '../assets/covid19.jpg';
 import snakeGameImg from '../assets/snakegame.jpg';
-import ticTacToeImg from '../assets/Tic_tac_toe.jpg';
+import ticTacToeImg from '../assets/Tic_tac_toe.png';
 
 const Works = () => {
   return (
