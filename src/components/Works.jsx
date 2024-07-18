@@ -1,5 +1,8 @@
 import React from 'react';
 import code from '../assets/code2.png';
+import covidImg from '../assets/covid19.jpg';
+import snakeGameImg from '../assets/snakegame.jpg';
+import ticTacToeImg from '../assets/Tic_tac_toe.jpg';
 
 const Works = () => {
   return (
@@ -13,9 +16,9 @@ const Works = () => {
         </div>
         {/* Container */}
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-          {/* Grid Item */}
+          {/* COVID-19, The Public Sentiment */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${covidImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -23,13 +26,9 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 COVID-19, The Public Sentiment
               </span>
-              <p className='text-center'>A project analyzing public sentiment on COVID-19</p>
+              <p className='text-center'>Analysis of public sentiment during the COVID-19 pandemic</p>
               <div className='pt-8 text-center'>
-                <a
-                  href='https://github.com/abiodunobafemi/Vader/blob/main/Vader-Project1.py'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+                <a href='https://github.com/abiodunobafemi/Vader/blob/main/Vader-Project1.py'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -37,8 +36,9 @@ const Works = () => {
               </div>
             </div>
           </div>
+          {/* Snake Game */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${snakeGameImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -46,13 +46,9 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Snake Game
               </span>
-              <p className='text-center'>A classic snake game built with Python</p>
+              <p className='text-center'>Classic Snake game implemented in Python</p>
               <div className='pt-8 text-center'>
-                <a
-                  href='https://github.com/abiodunobafemi/SnakeGame/blob/main/SnakeGame.py'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+                <a href='https://github.com/abiodunobafemi/SnakeGame/blob/main/SnakeGame.py'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -60,8 +56,9 @@ const Works = () => {
               </div>
             </div>
           </div>
+          {/* Tic-Tac-Toe */}
           <div
-            style={{ backgroundImage: `url(${code})` }}
+            style={{ backgroundImage: `url(${ticTacToeImg})` }}
             className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
           >
             {/* Hover Effects */}
@@ -69,13 +66,9 @@ const Works = () => {
               <span className=' text-lg font-bold text-white tracking-wider'>
                 Tic-Tac-Toe
               </span>
-              <p className='text-center'>A Tic-Tac-Toe game built with Python</p>
+              <p className='text-center'>Classic Tic-Tac-Toe game implemented in Python</p>
               <div className='pt-8 text-center'>
-                <a
-                  href='https://github.com/abiodunobafemi/Tic-Tac-Toe'
-                  target='_blank'
-                  rel='noreferrer'
-                >
+                <a href='https://github.com/abiodunobafemi/Tic-Tac-Toe'>
                   <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -88,5 +81,4 @@ const Works = () => {
     </div>
   );
 };
-
 export default Works;
