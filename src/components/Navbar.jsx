@@ -123,8 +123,7 @@ const Navbar = () => {
             <a
               className='flex justify-between items-center w-full text-gray-300'
               href='/AObafemi_Resume2024.pdf'
-              target='_blank'
-              rel='noreferrer'
+              download
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
